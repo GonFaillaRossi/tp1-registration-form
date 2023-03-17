@@ -1,0 +1,127 @@
+/* Light Theme */
+
+form {
+  max-width: 310px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+
+label {
+  text-align: left;
+  display: flex;
+  margin-bottom: 8px;
+  margin-left: 1px;
+  font-weight: bold;
+}
+
+/* Change Autocomplete styles in Chrome*/
+/*input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 1000px #f3f3f3 inset;
+  transition: #f3f3f3 5000s ease-in-out 0s;
+}*/
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
+  display: flex;
+  width: 94%;
+  padding: 10px;
+  margin-bottom: 30px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  background-color: #f3f3f3;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="password"]:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+button[type="submit"] {
+  display: flex;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #0077c2;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #005fa3;
+}
+
+.form-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.form-error {
+  color: red;
+  margin-top: 10px;
+}
+
+/* Dark Theme */
+
+body.dark form {
+  background-color: #333;
+  color: #f3f3f3;
+}
+
+body.dark label {
+  color: #f3f3f3;
+}
+
+body.dark input[type="text"],
+body.dark input[type="email"],
+body.dark input[type="tel"],
+body.dark input[type="password"] {
+  background-color: #444;
+  color: #f3f3f3;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.1);
+}
+
+body.dark input[type="text"]:focus,
+body.dark input[type="email"]:focus,
+body.dark input[type="tel"]:focus,
+body.dark input[type="password"]:focus {
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+}
+
+body.dark button[type="submit"] {
+  background-color: #0099cc;
+}
+
+body.dark button[type="submit"]:hover {
+  background-color: #0077b3;
+}
+
+.form-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}

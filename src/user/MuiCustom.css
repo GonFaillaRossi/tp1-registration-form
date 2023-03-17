@@ -1,0 +1,29 @@
+.MuiTextField-root,
+.MuiInput-root {
+  width: 100%;
+}
+
+.MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline,
+.MuiInputBase-root {
+  border-radius: 4px;
+}
+
+.MuiFormLabel-root.Mui-focused {
+  color: #1976d2;
+}
+
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #1976d2;
+}
+
+.MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: rgba(0, 0, 0, 0.23);
+}
+
+.MuiOutlinedInput-root.Mui-error .MuiOutlinedInput-notchedOutline {
+  border-color: #f44336;
+}
+
+.MuiFormHelperText-root.Mui-error {
+  color: #f44336;
+}
