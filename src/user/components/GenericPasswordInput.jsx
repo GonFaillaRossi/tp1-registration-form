@@ -23,11 +23,11 @@ import {
 
 
 const PasswordInput = ({
-    props,
     showPassword,
     password,
     handleChange,
     handleShowPasswordClick,
+    ...props
 }) => {
 
     useEffect(()=> {
@@ -55,6 +55,8 @@ const PasswordInput = ({
                     </InputAdornment>
                 }
                 label="Password"
+                
+               { ...props}
             />
             <FormHelperText style={{ visibility: 'hidden' }}>Hidden</FormHelperText>
         </FormControl>

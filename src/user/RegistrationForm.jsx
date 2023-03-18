@@ -245,6 +245,7 @@ function RegistrationForm() {
                 password={password}
                 handleChange={handleChange}
                 handleShowPasswordClick={handleShowPasswordClick}
+                tabIndex={1}
               />
             </FormControlWrapper>
             <SubmitButton type="submit">REGISTRARME</SubmitButton>
